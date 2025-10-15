@@ -1,0 +1,105 @@
+{
+  "store": {
+    "name": "Tech Store",
+    "description": "Cửa hàng bán các thiết bị công nghệ hiện đại"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Máy tinh Dell XPS 13",
+      "category": "Máy tính",
+      "price": 25000000,
+      "currency": "VND",
+      "description": "Máy tinh cao cấp với màn hình OLED 13.3 inch, processor Intel Core i7, RAM 16GB, SSD 512GB",
+      "specifications": {
+        "screen": "13.3 inch OLED",
+        "processor": "Intel Core i7-13700H",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD NVMe",
+        "weight": "1.2kg",
+        "battery": "52WHr, 12 hours"
+      },
+      "stock": 15,
+      "rating": 4.8,
+      "reviews": 124,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "iPhone 15 Pro Max",
+      "category": "Điện thoại",
+      "price": 35000000,
+      "currency": "VND",
+      "description": "Điện thoại flagship Apple với camera 48MP, chip A17 Pro, màn hình 6.7 inch Super Retina XDR",
+      "specifications": {
+        "screen": "6.7 inch Super Retina XDR",
+        "processor": "Apple A17 Pro",
+        "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+        "battery": "4393mAh",
+        "storage": "256GB, 512GB, 1TB"
+      },
+      "stock": 8,
+      "rating": 4.9,
+      "reviews": 256,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "iPad Air",
+      "category": "Máy tính bảng",
+      "price": 18000000,
+      "currency": "VND",
+      "description": "Máy tính bảng với chip M1, màn hình 10.9 inch Liquid Retina, hỗ trợ Apple Pencil",
+      "specifications": {
+        "screen": "10.9 inch Liquid Retina",
+        "processor": "Apple M1",
+        "ram": "8GB",
+        "storage": "64GB, 256GB",
+        "weight": "471g",
+        "battery": "28.6WHr"
+      },
+      "stock": 12,
+      "rating": 4.7,
+      "reviews": 89,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Sony WH-1000XM5",
+      "category": "Tai nghe",
+      "price": 8500000,
+      "currency": "VND",
+      "description": "Tai nghe chống ồn tốt nhất với âm thanh Hi-Res Audio, pin 30 giờ",
+      "specifications": {
+        "type": "Over-ear",
+        "noiseCancel": "Industry-leading ANC",
+        "audioQuality": "Hi-Res Audio",
+        "battery": "30 hours",
+        "connection": "Bluetooth 5.3, 3.5mm"
+      },
+      "stock": 20,
+      "rating": 4.9,
+      "reviews": 512,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy Watch 6",
+      "category": "Đồng hồ thông minh",
+      "price": 7500000,
+      "currency": "VND",
+      "description": "Đồng hồ thông minh với màn hình AMOLED, theo dõi sức khỏe toàn diện, pin 3 ngày",
+      "specifications": {
+        "screen": "1.3 inch AMOLED",
+        "processor": "Exynos W930",
+        "battery": "3 days",
+        "health": "Heart rate, SpO2, sleep tracking",
+        "connectivity": "Bluetooth, WiFi, NFC"
+      },
+      "stock": 0,
+      "rating": 4.6,
+      "reviews": 203,
+      "inStock": false
+    }
+  ]
+}
